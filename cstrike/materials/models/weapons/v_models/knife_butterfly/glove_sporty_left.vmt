@@ -1,0 +1,14 @@
+VertexLitGeneric  {
+	"$BaseTexture"            "models\weapons\v_models\knife_butterfly/glove_sporty_left"
+	"$BumpMap"                "models\weapons\v_models\knife_butterfly/glove_sporty_left_normal"
+	"$PhongExponentTexture"   "models\weapons\v_models\knife_butterfly/glove_sporty_masks1"
+
+	"$Phong"                  "1" 
+    "$PhongFresnelRanges"     "[1 1 1]"    
+	"$BaseAlphaEnvMask"       "1" 
+	"$RimLight"               "1" 
+	"$RimLightBoost"          "0.1" 
+	"$RimLightExponent"       "4" 
+	"$PhongExponentFactor"    "70"
+	"$PhongBoost"             "2" 
+}

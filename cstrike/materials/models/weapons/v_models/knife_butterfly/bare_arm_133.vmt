@@ -1,0 +1,18 @@
+vertexlitgeneric
+{
+	"$basetexture"          models\weapons\v_models\knife_butterfly/arms_133
+	"$bumpmap"              models\weapons\v_models\knife_butterfly/arms_nr
+	"$phongexponenttexture" models\weapons\v_models\knife_butterfly/arms_ex
+	"$phong"                1
+	"$phongboost"           2
+	"$phongalbedotint"      1
+	"$phongalbedoboost"     80
+	"$phongtint"            "[0.7 0.8 1]"
+	"$phongfresnelranges"   "[0.3 0.5 1]"
+	"$rimlight"             1
+	"$rimlightexponent"     14
+	"$rimlightboost"        0.05
+	"$rimmask"              1
+//	"$lightwarptexture"     models\weapons\v_models\knife_butterfly/arms_light
+	"$halflambert"          1
+}

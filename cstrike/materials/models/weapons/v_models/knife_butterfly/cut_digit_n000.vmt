@@ -1,0 +1,29 @@
+VertexLitGeneric
+{
+	$basetexture	"models\weapons\v_models\knife_butterfly\cut_digit_7"
+	$alphatest		"1"
+	$bumpmap		"models\weapons\v_models\knife_butterfly\cut_digit_7_n"
+	$envmap			"env_cubemap"
+	$envmaptint		"[0.5 0.5 0.5]"
+	Proxies
+	{
+		StatTrakDigit
+		{
+			resultVar	$frame
+			trimzeros		1
+			displayDigit		0
+		}
+		StatTrakDigit
+		{
+			resultVar	$bumpframe
+			trimzeros		1
+			displayDigit		0
+		}
+		StatTrakIllum
+		{
+			resultVar	$color
+			minVal		1.0
+			maxVal		2.0
+		}
+	}
+}
